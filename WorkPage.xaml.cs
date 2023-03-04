@@ -16,15 +16,13 @@ using System.Windows.Shapes;
 namespace Прокат
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для WorkPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WorkPage : Page
     {
-        public MainWindow()
+        public WorkPage()
         {
             InitializeComponent();
-            MainFrame.Navigate(new MainPage());
         }
-
     }
 }

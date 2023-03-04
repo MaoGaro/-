@@ -7,12 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel HorizontalAlignment="Center" Height="140" VerticalAlignment="Center" Width="238">
-            <Label Content="Логин"></Label>
-            <TextBox x:Name="loginBox"></TextBox>
-            <Label Content="Пароль"></Label>
-            <TextBox x:Name="passwordBox"></TextBox>
-            <Button x:Name="enterButton" Height="18" Content="Вход" Click="EnterButtonClick"/>
-        </StackPanel>
+        <Frame x:Name="MainFrame">
+        </Frame>
     </Grid>
 </Window>
